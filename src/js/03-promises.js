@@ -41,4 +41,5 @@ const creator = e => {
     delayValue += stepValue;
   }
 };
+
 submit.addEventListener('submit', creator);
