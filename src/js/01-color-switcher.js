@@ -7,13 +7,13 @@ function getRandomHexColor() {
 }
 
 startBtn.addEventListener('click', () => {
-  start.disabled = true;
+  startBtn.disabled = true;
   colorChange = setInterval(() => {
     document.body.style.backgroundColor = getRandomHexColor();
   }, 1000);
 });
 
 stopBtn.addEventListener('click', () => {
-  start.disabled = false;
+  startBtn.disabled = false;
   clearInterval(colorChange);
 });
