@@ -1,0 +1,2 @@
+const t=document.querySelectorAll("button")[0],e=document.querySelectorAll("button")[1];let o=null;getRandomHexColor=()=>`#${Math.floor(16777215*Math.random()).toString(16)}`,t.addEventListener("click",(()=>{start.disabled=!0,o=setInterval((()=>{document.body.style.backgroundColor=getRandomHexColor()}),1e3)})),e.addEventListener("click",(()=>{start.disabled=!1,clearInterval(o)}));
+//# sourceMappingURL=01-color-switcher.ac702d51.js.map

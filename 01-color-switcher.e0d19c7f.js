@@ -1,2 +1,0 @@
-!function(){var t=document.querySelectorAll("button")[0],n=document.querySelectorAll("button")[1],e=null;getRandomHexColor=function(){return"#".concat(Math.floor(16777215*Math.random()).toString(16))},t.addEventListener("click",(function(){t.disabled=!0,e=setInterval((function(){document.body.style.backgroundColor=getRandomHexColor()}),1e3)})),n.addEventListener("click",(function(){t.disabled=!1,clearInterval(e)}))}();
-//# sourceMappingURL=01-color-switcher.e0d19c7f.js.map
