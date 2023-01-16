@@ -1,6 +1,7 @@
 const startBtn = document.querySelectorAll('button')[0];
 const stopBtn = document.querySelectorAll('button')[1];
 let colorChange = null;
+
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
