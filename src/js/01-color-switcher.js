@@ -1,5 +1,5 @@
-const startBtn = document.querySelectorAll('button')[0];
-const stopBtn = document.querySelectorAll('button')[1];
+const startBtn = document.querySelector('button[data-start]');
+const stopBtn = document.querySelector('button[data-stop]');
 let colorChange = null;
 
 function getRandomHexColor() {
