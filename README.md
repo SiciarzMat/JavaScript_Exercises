@@ -10,7 +10,7 @@ https://siciarzmat.github.io/JavaScript_Exercises/
 
 - [General info](#general-info)
 - [Technologies](#technologies)
-- [Sources] (#sources)
+* [Sources](#sources)
 
 ## General info
 
@@ -36,3 +36,5 @@ Project is created with:
 
 ## Sources
 This website has been performed as a homework result of Fullstack Developer Course by GoIT. 
+
+
