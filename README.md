@@ -10,7 +10,7 @@ https://siciarzmat.github.io/JavaScript_Exercises/
 
 - [General info](#general-info)
 - [Technologies](#technologies)
-* [Sources](#sources)
+- [Sources](#sources)
 
 ## General info
 
